@@ -1,0 +1,20 @@
+{
+  "name": "reloading-monitor",
+  "version": "1.0.0",
+  "description": "Lambda functions to monitor reloading supplies.",
+  "main": "brownells.js",
+  "scripts": {
+    "test": "mocha test/**/*.spec.js"
+  },
+  "author": "Jonathan Adams",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cheerio": "^1.0.0-rc.3",
+    "twilio": "^3.49.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
+  }
+}

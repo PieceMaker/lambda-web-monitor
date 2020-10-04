@@ -1,0 +1,6 @@
+# AWS SAM files
+.aws-sam/*
+*.toml
+
+# Node modules
+node_modules/
